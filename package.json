@@ -12,7 +12,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -33,11 +34,13 @@
     "bootstrap": "^4.4.1",
     "copy-webpack-plugin": "^5.1.1",
     "core-js": "2.6.5",
+    "express": "^4.17.1",
     "font-awesome": "4.7.0",
     "jquery": "^3.4.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ng2-nouislider": "1.7.13",
     "nouislider": "9.2.0",
+    "path": "^0.12.7",
     "popper.js": "1.14.7",
     "rellax": "1.4.0",
     "rxjs": "6.4.0",
