@@ -1,6 +1,10 @@
 {
   "name": "now-ui-kit-angular",
   "version": "1.1.0",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -26,14 +30,16 @@
     "@ng-bootstrap/ng-bootstrap": "4.1.0",
     "ajv": "6.10.0",
     "ajv-keywords": "3.4.0",
-    "bootstrap": "4.0.0",
-    "copy-webpack-plugin": "5.0.1",
+    "bootstrap": "^4.4.1",
+    "copy-webpack-plugin": "^5.1.1",
     "core-js": "2.6.5",
+    "express": "^4.17.1",
     "font-awesome": "4.7.0",
-    "jquery": "3.3.1",
+    "jquery": "^3.4.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ng2-nouislider": "1.7.13",
     "nouislider": "9.2.0",
+    "path": "^0.12.7",
     "popper.js": "1.14.7",
     "rellax": "1.4.0",
     "rxjs": "6.4.0",
